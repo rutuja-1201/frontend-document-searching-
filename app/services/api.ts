@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Document } from '@/types/document';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://sjhbdpnj-5000.inc1.devtunnels.ms';
 
 export const uploadDocument = async (file: File): Promise<Document> => {
     const formData = new FormData();

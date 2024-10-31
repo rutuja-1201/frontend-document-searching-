@@ -7,9 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Online Courses, Start Learning and Explore Many More || ImmverseAI - Professional LMS Online Education Course",
+    "Document",
   description:
-    "Elevate your e-learning content with ImmverseAI, the most impressive LMS for online courses, education and LMS platforms.",
+    ""
 };
 
 export default function RootLayout({
